@@ -8,7 +8,7 @@ body {
 .head {
   display: flex;
   flex-direction: column;
-  /*still want ot get this background to load from local file*/
+  /*still want to get this background to load from local file*/
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   height: 31rem;
   background-size: cover;
@@ -70,6 +70,8 @@ body {
   padding-left: 5rem;
 }
 
+/*services area of the site*/
+
 .services {
   display: flex;
   flex-direction: row;
@@ -104,6 +106,8 @@ body {
   padding-bottom: 2rem;
 }
 
+/*info section for the site*/
+
 .info {
   display: flex;
   flex-direction: row;
@@ -119,6 +123,8 @@ body {
   padding-left: 1.25rem;
   width: 60%
 }
+
+/*footer for the site*/
 
 .foot {
   margin-top: 5rem;
@@ -139,4 +145,40 @@ body {
 .foot p {
   padding-left: 1rem;
   padding-top: 2.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  body {
+    width: 100%;
+  }
+
+  .head {
+  height: auto;
+  }
+
+  #titlebar {width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+}
+#splash {
+  font-size: 1.33rem;
+  margin-left: 37rem;
+  margin-bottom: 10rem;
+  height: 6rem;
+  width: 23rem;
+}
+
+#splash h4 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 0rem;
+  padding-left: 4rem;
+}
+
+.foot {
+  margin-left: 0rem;
+  width: auto;
+}
+
 }
