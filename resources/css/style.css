@@ -126,6 +126,8 @@ body {
   flex-direction: row;
   height: 9rem;
   background-color: azure;
+  margin-left: 9rem;
+  width: 960px;
 }
 
 #blklogo {
