@@ -121,7 +121,14 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1.25rem;
-  width: 60%
+  width: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.info p {
+  width: 35%;
+  margin-left: 10rem;
 }
 
 /*footer for the site*/
@@ -157,10 +164,12 @@ body {
   height: auto;
   }
 
-  #titlebar {width: 100%;
+  #titlebar {
+  width: 100%;
   margin-top: 0;
   margin-left: 0;
 }
+
 #splash {
   font-size: 1.33rem;
   margin-left: 37rem;
@@ -180,5 +189,84 @@ body {
   margin-left: 0rem;
   width: auto;
 }
+
+}
+
+@media only screen and (max-width: 470px) {
+  #menufull {
+    display: none;
+  }
+
+  #titlehd {
+    display: none;
+  }
+
+  #mobmenu {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 1rem;
+    }
+
+    .head {
+      background-position: 20%;
+    }
+
+    #splash {
+      margin-bottom: 1rem;
+      width: 100%;
+      margin-left: 0;
+      height: 3rem;
+    }
+
+    #splash h4 {
+      font-size: 1rem;
+      padding: 0;
+      text-align: center;
+    }
+
+    .services {
+      flex-direction: column;
+      margin-bottom: 3.77rem;
+      align-content: space-between;
+    }
+
+    #compex {
+      margin-left: 0;
+    }
+
+    #fastdev {
+      margin-right: 0;
+    }
+
+    #fastdev img {
+      padding-bottom: 0;
+      margin-left: 10.5rem;
+    }
+
+    #custfit img {
+      padding-bottom: 0;
+    }
+
+    .info {
+      flex-direction: column;
+    }
+
+    .info h4 {
+      padding: 1rem 0 0 0;
+      width: 100%;
+      height: 3rem;
+      text-align: center;
+      font-size: 1.5rem;
+      margin-left: 0;
+      margin-right:0;
+    }
+
+    .info p{
+      width: 100%;
+      margin-left: 0;
+    }
 
 }
