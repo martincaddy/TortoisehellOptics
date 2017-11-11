@@ -9,10 +9,12 @@ body {
   border: red solid 0.1rem;
   display: flex;
   flex-direction: column;
+  /*still want ot get this background to load from local file*/
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   height: 31rem;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 3rem;
 }
 
 #titlebar {
@@ -73,12 +75,67 @@ body {
 
 .services {
   border: red solid 0.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+#compex, #custfit, #fastdev {
+  border: blue solid 0.05rem;
+}
+
+#compex, #custfit, #fastdev p{
+  border: blue solid 0.05rem;
+  text-align: center;
+}
+
+
+#compex {
+  margin-left: 10rem;
+}
+
+#compex img {
+  height: 5rem;
+  /*padding-left: 1rem;*/
+}
+
+#custfit img {
+  width: 5rem;
+  /*padding-left: 1rem;*/
+  padding-bottom: 2.5rem;
+}
+
+#fastdev {
+  margin-right: 10rem;
+}
+
+#fastdev img {
+  width: 5rem;
+  padding-bottom: 2rem;
 }
 
 .info {
   border: red solid 0.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info h4{
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  width: 60%
 }
 
 .foot {
   border: red solid 0.1rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  height: 9rem;
 }
