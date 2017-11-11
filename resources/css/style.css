@@ -6,7 +6,6 @@ body {
 }
 
 .head {
-  border: red solid 0.1rem;
   display: flex;
   flex-direction: column;
   /*still want ot get this background to load from local file*/
@@ -18,7 +17,6 @@ body {
 }
 
 #titlebar {
-  border: blue solid 0.05rem;
   display: flex;
   flex-direction: row;
   background-color: cadetblue;
@@ -34,7 +32,6 @@ body {
 }
 
 #menufull {
-  border: blue solid 0.05rem;
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
@@ -74,22 +71,16 @@ body {
 }
 
 .services {
-  border: red solid 0.1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 3rem;
 }
 
-#compex, #custfit, #fastdev {
-  border: blue solid 0.05rem;
-}
 
 #compex, #custfit, #fastdev p{
-  border: blue solid 0.05rem;
   text-align: center;
 }
-
 
 #compex {
   margin-left: 10rem;
@@ -97,12 +88,10 @@ body {
 
 #compex img {
   height: 5rem;
-  /*padding-left: 1rem;*/
 }
 
 #custfit img {
   width: 5rem;
-  /*padding-left: 1rem;*/
   padding-bottom: 2.5rem;
 }
 
@@ -116,7 +105,6 @@ body {
 }
 
 .info {
-  border: red solid 0.1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -133,9 +121,20 @@ body {
 }
 
 .foot {
-  border: red solid 0.1rem;
   margin-top: 5rem;
   display: flex;
   flex-direction: row;
   height: 9rem;
+  background-color: azure;
+}
+
+#blklogo {
+  height: 1rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+.foot p {
+  padding-left: 1rem;
+  padding-top: 2.5rem;
 }
